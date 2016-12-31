@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/balderdashy/waterline-%s.git"
+    "url": "git://github.com/nwwells/sails-leveldb.git"
   },
   "keywords": [
     "leveldb",
@@ -22,17 +22,17 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "async": "~0.8.0",
-    "bluebird": "~1.2.4",
-    "level": "~0.18.0",
-    "lodash": "~2.4.1",
-    "waterline-criteria": "~0.10.2",
-    "waterline-errors": "~0.10.0"
+    "async": "2.1.4",
+    "bluebird": "3.4.7",
+    "level": "1.5.0",
+    "lodash": "4.17.3",
+    "waterline-criteria": "2.0.0",
+    "waterline-errors": "0.10.1"
   },
   "devDependencies": {
-    "waterline-adapter-tests": "~0.10.0",
-    "mocha": "*",
-    "captains-log": "~0.11.0"
+    "waterline-adapter-tests": "0.12.1",
+    "mocha": "3.2.0",
+    "captains-log": "1.0.2"
   },
   "waterlineAdapter": {
     "type": "leveldb",
